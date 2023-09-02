@@ -1,0 +1,28 @@
+
+
+.brands-searched{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 1rem;
+    ul{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        list-style: none;
+
+        li{
+            border: 1px solid rgba(128, 128, 128, 0.436);
+            padding: .5rem ;
+            font-size: .9rem;
+            font-weight: bold;
+            transition: all 500ms ease-in-out;
+            cursor: pointer;
+
+            &:hover{
+                color: white;
+                background-color: #3B3B3B;
+            }
+        }
+    }
+}

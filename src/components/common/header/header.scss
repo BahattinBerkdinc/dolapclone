@@ -5,11 +5,13 @@
     width: 100%;
     top: 0;
     background-color: v.$colorBg_main;
+    z-index: 999;
 }
 
 .search-input-box{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     border: 1px solid lightgray;
     border-radius: 5px;
     padding: 5px;
@@ -41,7 +43,6 @@
 @media (max-width:992px){
     .search-input-box.stretch{
         width: 400px;
-        justify-content: flex-end;
     }
 }
 
@@ -95,6 +96,16 @@
             &:focus{
                 border-color: v.$color-main ;
             }
+        }
+
+    }
+
+    @media (max-width:992px){
+        .flex{
+            display: flex;
+        }
+       .none{
+            display: none;
         }
     }
 

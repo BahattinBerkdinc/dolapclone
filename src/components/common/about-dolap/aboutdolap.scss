@@ -1,0 +1,41 @@
+
+@use "../../../styles//variables" as v;
+
+.aboutDolap{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    h3,h4,h5{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    h3{
+        display: flex;
+        gap: .5rem;
+        .nav-link{
+            color: v.$color5;
+        }
+    }
+
+    h6{
+        font-size: .9rem;
+    }
+
+    p{
+        font-size: .9rem;
+        color: rgba(0, 0, 0, 0.674);
+    }
+
+    .show-btn{
+        font-size: .9rem;
+        font-weight: bolder;
+        cursor: pointer;
+        color: v.$color5;
+
+        &:hover{
+            opacity: .7;
+        }
+    }
+}

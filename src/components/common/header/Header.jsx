@@ -6,6 +6,9 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import "./header.scss"
 import CategorieBar from '../categorie-bar/CategorieBar'
 import AsideMenu from '../aside-menu/AsideMenu'
+
+
+
 const Header = () => {
 
     const [searchClick,setSearchClick] = useState(false);
@@ -20,12 +23,12 @@ const Header = () => {
             <NavLink className='menu-bar'>
                 <GiHamburgerMenu onClick={()=>setShowAsideMenu(!showAsideMenu)}/>
             </NavLink>
-            <NavLink className={`logo ${searchClick ? "d-none" : "d-flex"}` }>
+            <NavLink className={`logo ${searchClick ? "none" : "flex"}` }>
                 <img src={logo} alt="dolap_logo" />
             </NavLink>
             <Form>
                 <div className={`search-input-box ${searchClick ? "stretch" : ""}` } onClick={()=>setSearchClick(!searchClick)}>
-                <Form.Control className={`${searchClick ? "d-flex" : "d-none"}` } type="text" placeholder="Ürün @üye, #etiket ara" />
+                <Form.Control className={`${searchClick ? "flex" : "none"}` } type="text" placeholder="Ürün @üye, #etiket ara" />
                 <BsSearch/>
                 </div>
             </Form>
