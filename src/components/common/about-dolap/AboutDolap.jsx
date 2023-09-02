@@ -35,7 +35,7 @@ const AboutDolap = () => {
         }
         </div>
 
-        <div className="show-btn" onClick={()=>setShowMore(!show)}>Show More...</div>
+        <div className="show-btn" onClick={()=>setShowMore(!show)}>{show ? "Daha Az Gör..." : "Daha Fazla Gör..."}</div>
         
     </div>
   )

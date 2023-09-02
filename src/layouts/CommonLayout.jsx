@@ -8,7 +8,6 @@ const CommonLayout = () => {
     <>
     <Header/>
     <Outlet/>
-    <Spacer/> 
     <Footer/>
     </>
   )

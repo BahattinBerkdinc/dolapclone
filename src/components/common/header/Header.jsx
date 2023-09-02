@@ -6,6 +6,7 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import "./header.scss"
 import CategorieBar from '../categorie-bar/CategorieBar'
 import AsideMenu from '../aside-menu/AsideMenu'
+import { Link } from 'react-router-dom'
 
 
 
@@ -23,9 +24,9 @@ const Header = () => {
             <NavLink className='menu-bar'>
                 <GiHamburgerMenu onClick={()=>setShowAsideMenu(!showAsideMenu)}/>
             </NavLink>
-            <NavLink className={`logo ${searchClick ? "none" : "flex"}` }>
+            <Link to="/" className={`logo ${searchClick ? "none" : "flex"}` }>
                 <img src={logo} alt="dolap_logo" />
-            </NavLink>
+            </Link>
             <Form>
                 <div className={`search-input-box ${searchClick ? "stretch" : ""}` } onClick={()=>setSearchClick(!searchClick)}>
                 <Form.Control className={`${searchClick ? "flex" : "none"}` } type="text" placeholder="Ürün @üye, #etiket ara" />
@@ -38,7 +39,7 @@ const Header = () => {
             </div>
         </Container>
         <CategorieBar/>
-        <AsideMenu showAsideMenu={showAsideMenu}/>
+        <AsideMenu showAsideMenu={showAsideMenu} setShowAsideMenu={setShowAsideMenu}/>
     </header>
   )
 }

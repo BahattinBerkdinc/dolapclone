@@ -16,7 +16,7 @@ const color3_light= "#FAC2CD";
 const color4_light= "#FFC942";
 const CategorieBar = () => {
     const [hoveredCategory, setHoveredCategory] = useState(null);
-    const [showCategorie, setShowCategorie] = useState(false);
+    const [showCategorie, setShowCategorie] = useState(true);
   return (
   
     <div className='categorie-bar'>

@@ -1,31 +1,34 @@
 import React from 'react'
-import { NavLink } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import logo from "../../../assets/logo/dolaplogo.svg"
 import "./asidemenu.scss"
-const AsideMenu = ({showAsideMenu}) => {
+const AsideMenu = ({showAsideMenu,setShowAsideMenu}) => {
+
+  const handleClick = () => {
+    setShowAsideMenu(false)
+  }
+  
+
   return (
     <div className="aside-menu" style={{transform: showAsideMenu ? "translateX(0)" : "translateX(-100%)"}}>
-      <NavLink>
+      <Link to="/" onClick={handleClick}>
         Ana Sayfa
-      </NavLink>
-      <NavLink>
-        Nasil Çalışır?
-      </NavLink>
-      <NavLink>
+      </Link>
+      <Link to="/nasil-calisir"  onClick={handleClick}>
+        Nasıl Çalışır?
+      </Link>
+      <a href="https://dolap-help.freshdesk.com/support/solutions" target='_blank' rel='noreferrer' onClick={handleClick}>
         Dolap Destek
-      </NavLink>
-      <NavLink>
+      </a>
+      <Link to="/iletisim" onClick={handleClick}>
         İletişim
-      </NavLink>
-      <NavLink>
-        Markalar
-      </NavLink>
-      <NavLink>
+      </Link>
+      <Link onClick={handleClick}>
         Giriş Yap
-      </NavLink>
-      <NavLink>
+      </Link>
+      <Link onClick={handleClick}>
       <img src={logo} alt="" />
-      </NavLink>
+      </Link>
     </div>
   )
 }

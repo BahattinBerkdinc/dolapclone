@@ -5,6 +5,8 @@ import HomePage from "../pages/home-page/Homepage.jsx"
 
 
 import CommonLayout from "../layouts/CommonLayout.jsx";
+import HowItWorks from "../pages/how-it-works/HowItWorks.jsx";
+import Contact from "../pages/contact-page/Contact.jsx";
 
 const router = createBrowserRouter([
     {
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <HomePage/>
+            },
+            {
+                path:"/nasil-calisir",
+                element:<HowItWorks/>
+            },
+            {
+                path:"/iletisim",
+                element:<Contact/>
             }
         ]
     }

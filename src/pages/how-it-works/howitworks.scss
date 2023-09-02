@@ -1,0 +1,53 @@
+@use "../../styles/variables" as v;
+
+.how-it-works-content{
+    margin-top: 10rem;
+    background-color: white;
+    padding: 1rem;
+
+    .top{
+        h2{
+            font-size: 1.5rem;
+        }
+        >p{
+            font-size: .9rem;
+
+            &:last-child{
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    .butons{
+        display: flex;
+        align-items: center;
+        column-gap: 2rem;
+        color: v.$color5;
+
+        >a{
+            color: v.$color-main;
+            text-decoration: none;
+        }
+    }
+
+
+    .bottom-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        padding: 0 1rem;
+        background-color: #F2F2F2;
+
+        img{
+            width: 150px;
+            object-fit: cover;
+        }
+
+        >p{
+            font-size: .9rem;
+        }
+    }
+}

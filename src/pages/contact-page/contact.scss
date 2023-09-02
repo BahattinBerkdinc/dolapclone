@@ -1,0 +1,38 @@
+
+
+.contact{
+    background-image: url(../../assets/images/contactbg.webp);
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 11rem;
+    margin-bottom: 3rem;
+    padding: 5rem ;
+
+
+    .contact-top{
+        
+        >h2{
+            color: white ;
+            margin-bottom: 3rem;
+        }
+
+        p{
+            color: white;
+        }
+    }
+
+    .contact-bottom{
+        h2{
+            color: white;
+            margin-bottom: 3rem;
+        }
+        p{
+            color: white;
+        }
+    }
+}

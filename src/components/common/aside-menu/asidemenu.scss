@@ -17,12 +17,13 @@
     }
     
     
-    .nav-link{
+    a{
         color: white;
         padding: 1rem 0;
         font-size: .9rem;
         border-bottom: 1px solid rgba(211, 211, 211, 0.213);
         padding-left: 1.5rem;
+        text-decoration: none;
 
         &:last-child{
             border-bottom: none;
