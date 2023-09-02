@@ -1,0 +1,84 @@
+@use "../../../styles//variables" as v;
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .banner-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem 0;
+        background-color: white;
+        width: 100%;
+        img{
+            width: 250px;
+        }
+        >span{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.categorie-bar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.154);
+}
+
+.categorie-bar-box{
+    flex: 1;
+    text-align: center;
+    padding: .6rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.categorie-bar-main-box{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    &:hover{
+        .categorie-bar-bottom{
+            display: flex;
+            z-index: 3;
+        }
+    }
+
+    .categorie-bar-bottom{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        display: none;
+        background-color: white;
+        
+
+        >div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+            width: 150px;
+            height: 150px;
+
+            img{
+                width: 50px;
+                object-fit: cover;
+            }
+        }
+    }
+}

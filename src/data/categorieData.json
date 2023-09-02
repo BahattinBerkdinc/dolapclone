@@ -1,0 +1,146 @@
+
+{
+    "categories": [
+      {
+        "name": "Giyim",
+        "sub_categories": [
+          {
+            "name": "Üst Giyim",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/94.png"
+          },
+          {
+            "name": "Alt Giyim",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/105.png"
+          },
+          {
+            "name": "Elbise",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/126.png"
+          },
+          {
+            "name": "Dış Giyim",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/115.png"
+          },
+          {
+            "name": "Plaj Giyim",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/370.png"
+          },
+          {
+            "name": "Ev Giyim",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/374.png"
+          },
+          {
+            "name": "İkili Takım",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/34000.png"
+          }
+        ]
+      },
+      {
+        "name": "Çanta",
+        "sub_categories": [
+          {
+            "name": "Kol Çantası",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/78.png"
+          },
+          {
+            "name": "Askılı Çanta",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/82.png"
+          },
+          {
+            "name": "Sırt Çantası",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/74.png"
+          },
+          {
+            "name": "Cüzdan",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/76.png"
+          },
+          {
+            "name": "El Çantası",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/77.png"
+          },
+          {
+            "name": "Plaj Çantası",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/81.png"
+          },
+          {
+            "name": "Makyaj Çantası",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/80.png"
+          }
+        ]
+      },
+      {
+        "name": "Ayakkabı",
+        "sub_categories": [
+          {
+            "name": "Spor Ayakkabı",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/67.png"
+          },
+          {
+            "name": "Babet",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/64.png"
+          },
+          {
+            "name": "İnce Topuklu",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/70.png"
+          },
+          {
+            "name": "Kalın Topuklu",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/69.png"
+          },
+          {
+            "name": "Dolgu Topuklu",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/71.png"
+          },
+          {
+            "name": "Oxford/Loafer",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/72.png"
+          },
+          {
+            "name": "Sandalet",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/68.png"
+          },
+          {
+            "name": "Terlik",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/132.png"
+          }
+        ]
+      },
+      {
+        "name": "Aksesuar",
+        "sub_categories": [
+          {
+            "name": "Gözlük",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/86.png"
+          },
+          {
+            "name": "Saat",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/85.png"
+          },
+          {
+            "name": "Takı",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/91.png"
+          },
+          {
+            "name": "Kemer",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/87.png"
+          },
+          {
+            "name": "Şal/Eşarp",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/88.png"
+          },
+          {
+            "name": "Eldiven",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/135.png"
+          },
+          {
+            "name": "Atkı",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/133.png"
+          },
+          {
+            "name": "Bere",
+            "imageUrl": "https://dolap.dsmcdn.com/dolap/common/category/134.png"
+          }
+        ]
+      }
+    ]
+  }
+  

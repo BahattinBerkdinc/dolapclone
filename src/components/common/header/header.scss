@@ -1,0 +1,33 @@
+@use "../../../styles//variables" as v;
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    .logo{
+        display: flex;
+        flex: 1;
+
+        img{
+            width: 150px;
+        }
+    }
+
+    >form{
+        flex: 2;
+        .form-control{
+            box-shadow: none;
+
+            &:focus{
+                border-color: v.$color-main ;
+            }
+        }
+    }
+
+    .login{
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+    }
+}
