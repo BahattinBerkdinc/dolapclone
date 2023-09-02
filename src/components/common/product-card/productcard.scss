@@ -1,0 +1,190 @@
+@use "../../../styles//variables" as v;
+
+.product-card{
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+.card-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    .card-top-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        .profile-image{
+            display: flex;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 1px solid black;
+            transform: rotate(45deg);
+
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .left-content{
+        display: flex;
+        flex-direction: column;
+
+        span{
+            color: v.$colorText_light;
+        }
+
+        >span{
+            font-size: .9rem;
+        }
+
+        >.stars{
+            display: flex;
+            align-items: center;
+
+            >span{
+                font-size: .9rem;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .card-top-right{
+        border: 1px solid v.$color-main;
+        padding: .5rem .9rem;
+        border-radius: 10px;
+        svg{
+            font-size: 1.4rem;
+            color: v.$color-main;
+        }
+    }
+}
+
+
+.card-mid{
+    display: flex;
+    position: relative;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .prod-tag{
+        position: absolute;
+        top: 20px;
+        right: 0;
+        background-color: v.$color4;
+
+        font-size: .8rem;
+        color: white;
+        padding: .5rem 1rem;
+
+        &::before{
+            content: "";
+            width: 50px;
+            position: absolute;
+            top: 0px;
+            left: -54px;
+            bottom: 0;
+            border-left: 28px solid transparent; 
+            border-right: 28px solid transparent; 
+             border-bottom: 45px solid v.$color4; 
+            transform: rotate(-90deg);
+        }
+    }
+}
+
+
+.card-bottom{
+    display: flex;
+    flex-direction: column;
+
+    .card-bottom-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+
+        .prod-info{
+            display: flex;
+            flex-direction: column;
+
+            span{
+                color: v.$colorText;
+
+                &:first-child{
+                    font-size: 1.1rem;
+                }
+                &:last-child{
+                    font-size: .9rem;
+                }
+            }
+        }
+
+        .prod-price{
+            display: flex;
+            flex-direction: column;
+            text-align: end;
+            span{
+                color: v.$colorText;
+
+                &:first-child{
+                    font-size: .9rem;
+                    text-decoration: line-through;
+                }
+                &:last-child{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+
+    .card-bottom-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 15px;
+
+        span{
+            font-size: .9rem;
+            cursor: pointer;
+        }
+
+        >.left{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            svg{
+                font-size: 1.5rem;
+                color: v.$color3;
+            }
+        }
+
+        .line{
+            width: 1px;
+            height: 30px;
+            background-color: lightgrey;
+        }
+
+        >.right{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            svg{
+                font-size: 1.5rem;
+                color: v.$color1;
+            }
+        }
+    }
+}
