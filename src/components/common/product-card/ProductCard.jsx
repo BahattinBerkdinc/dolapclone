@@ -10,7 +10,7 @@ const ProductCard = ({products}) => {
 
     const [addPerson,setAddPerson] = useState(false)
 
-    const {userImage, userName, rate,stars, productImage, productName, productPrice, productPrice_old, like, comment,id} = products
+    const {userImage, userName, rate,stars, productImage, productName, productPrice,productInfo, productPrice_old, like, comment,id} = products
 
   return (
     <div className=" card  product-card mt-5  h-80" >
@@ -37,13 +37,13 @@ const ProductCard = ({products}) => {
         </div>
         <Link className="card-mid"  to={`/${id}`}>
             <img src={productImage} alt="" />
-            <div className="prod-tag">Yeni & <br /> Etiketli</div>
+            <div className="prod-tag" style={{display: productInfo === "Ikinci El" ? "none" : "flex"}}>Yeni & <br /> Etiketli</div>
         </Link>
         <div className="card-bottom">
             <div className="card-bottom-top">
                 <div className="prod-info">
                     <span>{productName}</span>
-                    <span>urun bilgisi</span>
+                    <span>{productInfo}</span>
                 </div>
                 <div className="prod-price">
                     <span>{productPrice_old}</span>

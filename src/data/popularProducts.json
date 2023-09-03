@@ -11,7 +11,8 @@
         "productPrice": 49.99,
         "productPrice_old": 59.99,
         "like": 102,
-        "comment": 25
+        "comment": 25,
+        "productInfo":"Sıfır"
       },
       {
         "id": 2,
@@ -24,7 +25,8 @@
         "productPrice": 29.99,
         "productPrice_old": 34.99,
         "like": 73,
-        "comment": 15
+        "comment": 15,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 3,
@@ -37,7 +39,8 @@
         "productPrice": 79.99,
         "productPrice_old": 89.99,
         "like": 215,
-        "comment": 30
+        "comment": 30,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 4,
@@ -45,12 +48,13 @@
         "userName": "nihalll",
         "rate": 3.0,
         "stars": 3,
-        "productImage": "https://images.pexels.com/photos/4210854/pexels-photo-4210854.jpeg?auto=compress&cs=tinysrgb&w=300",
-        "productName": "Kazak",
+        "productImage": "https://images.pexels.com/photos/18075565/pexels-photo-18075565/free-photo-of-moda-kadin-dis-mekan-gomlek.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "productName": "Gömlek",
         "productPrice": 39.99,
         "productPrice_old": 49.99,
         "like": 45,
-        "comment": 10
+        "comment": 10,
+        "productInfo":"Sıfır"
       },
       {
         "id": 5,
@@ -63,7 +67,8 @@
         "productPrice": 99.99,
         "productPrice_old": 109.99,
         "like": 180,
-        "comment": 22
+        "comment": 22,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 6,
@@ -76,7 +81,8 @@
         "productPrice": 59.99,
         "productPrice_old": 69.99,
         "like": 92,
-        "comment": 18
+        "comment": 18,
+        "productInfo":"Sıfır"
       },
       {
         "id": 7,
@@ -89,7 +95,8 @@
         "productPrice": 19.99,
         "productPrice_old": 24.99,
         "like": 34,
-        "comment": 8
+        "comment": 8,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 8,
@@ -102,7 +109,8 @@
         "productPrice": 89.99,
         "productPrice_old": 99.99,
         "like": 150,
-        "comment": 28
+        "comment": 28,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 9,
@@ -115,7 +123,8 @@
         "productPrice": 69.99,
         "productPrice_old": 79.99,
         "like": 63,
-        "comment": 12
+        "comment": 12,
+        "productInfo":"Sıfır"
       },
       {
         "id": 10,
@@ -128,7 +137,8 @@
         "productPrice": 109.99,
         "productPrice_old": 119.99,
         "like": 220,
-        "comment": 35
+        "comment": 35,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 11,
@@ -141,7 +151,8 @@
         "productPrice": 44.99,
         "productPrice_old": 54.99,
         "like": 80,
-        "comment": 16
+        "comment": 16,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 12,
@@ -154,7 +165,8 @@
         "productPrice": 59.99,
         "productPrice_old": 69.99,
         "like": 95,
-        "comment": 20
+        "comment": 20,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 13,
@@ -167,7 +179,8 @@
         "productPrice": 79.99,
         "productPrice_old": 89.99,
         "like": 200,
-        "comment": 32
+        "comment": 32,
+        "productInfo":"Sıfır"
       },
       {
         "id": 14,
@@ -180,7 +193,8 @@
         "productPrice": 39.99,
         "productPrice_old": 49.99,
         "like": 55,
-        "comment": 9
+        "comment": 9,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 15,
@@ -193,7 +207,8 @@
         "productPrice": 89.99,
         "productPrice_old": 99.99,
         "like": 170,
-        "comment": 27
+        "comment": 27,
+        "productInfo":"Sıfır"
       },
       {
         "id": 16,
@@ -206,7 +221,8 @@
         "productPrice": 54.99,
         "productPrice_old": 64.99,
         "like": 110,
-        "comment": 21
+        "comment": 21,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 17,
@@ -219,7 +235,8 @@
         "productPrice": 29.99,
         "productPrice_old": 39.99,
         "like": 65,
-        "comment": 14
+        "comment": 14,
+        "productInfo":"Sıfır"
       },
       {
         "id": 18,
@@ -232,7 +249,8 @@
         "productPrice": 99.99,
         "productPrice_old": 109.99,
         "like": 240,
-        "comment": 37
+        "comment": 37,
+        "productInfo":"Ikinci El"
       },
       {
         "id": 19,
@@ -245,7 +263,8 @@
         "productPrice": 49.99,
         "productPrice_old": 59.99,
         "like": 120,
-        "comment": 23
+        "comment": 23,
+        "productInfo":"Sıfır"
       },
       {
         "id": 20,
@@ -258,7 +277,8 @@
         "productPrice": 69.99,
         "productPrice_old": 79.99,
         "like": 180,
-        "comment": 29
+        "comment": 29,
+        "productInfo":"Ikinci El"
       }
     ]
   }

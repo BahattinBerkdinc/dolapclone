@@ -66,6 +66,13 @@
         border: 1px solid v.$color-main;
         padding: .5rem .9rem;
         border-radius: 10px;
+
+        &:hover{
+            border: 1px solid black;
+            svg{
+                color: black;
+            }
+        }
         svg{
             font-size: 1.4rem;
             color: v.$color-main;
@@ -133,6 +140,7 @@
                 }
                 &:last-child{
                     font-size: .9rem;
+                    color: v.$color-main;
                 }
             }
         }
