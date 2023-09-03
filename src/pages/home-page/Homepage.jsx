@@ -28,6 +28,7 @@ const Homepage = () => {
         <HomeComments/>
         <Spacer height={50}/>
         <AboutDolap/>
+        <Spacer height={50}/>
     </Container>
   )
 }

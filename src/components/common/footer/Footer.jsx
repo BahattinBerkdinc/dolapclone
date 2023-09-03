@@ -11,12 +11,12 @@ const Footer = () => {
         <Container>
             <Row>
                 <div className='d-flex justify-content-center gap-4'>
-                <NavLink>
+                <a href='https://apps.apple.com/app/id1127881507?mt=8"' target='_blank' rel='noreferrer'>
                     <img src={appleBtn} alt="" />
-                </NavLink>
-                <NavLink>
+                </a>
+                <a href='https://play.google.com/store/apps/details?id=com.dolap.android&referrer=adjust_reftag%3DcZuCp38lTvik8%26utm_source%3DOrganic-Website%26utm_campaign%3DHomepage%26utm_content%3DHeader%2BIcon' target='_blank' rel='noreferrer'>
                     <img src={googleBtn} alt="" />
-                </NavLink>
+                </a>
                 </div>
                 <Col className='mt-5'>
                         <h2>Kategoriler</h2>

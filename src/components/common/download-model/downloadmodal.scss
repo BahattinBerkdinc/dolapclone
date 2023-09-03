@@ -1,0 +1,22 @@
+
+
+.download-modal{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    svg{
+        position: absolute;
+        transform: translate(-2.5rem, 1rem);
+        font-size: 1.7rem;
+        cursor: pointer;
+        transform: translate(14rem, -10rem);
+    }
+}

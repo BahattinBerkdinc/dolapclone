@@ -1,0 +1,251 @@
+@use "../../../styles/variables" as v;
+
+.product-details{
+    margin-top: 10rem;
+}
+
+.prod-image{
+    display: flex;
+    align-items: center;
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+   .prod-image-bottom{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.572);
+    width: 100%;
+    padding: 1rem ;
+    cursor: pointer;
+
+    svg{
+        font-size: 2rem;
+    }
+   }
+
+}
+
+.product-details-right{
+    display: flex;
+    flex-direction: column;
+    >div{
+        border-bottom: 1px solid lightgrey;
+        padding: 1rem .5rem;
+    }
+
+}
+
+.prod-info-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+
+    >.left{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 1.5rem;
+        }
+        >span{
+            color: grey;
+            font-size: 1rem;
+        }
+    }
+
+    >.right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .7rem;
+        border-left: 1px solid lightgray;
+        padding: 1rem;
+        >svg{
+            font-size: 2rem;
+            color: v.$color3;
+        }
+        >span{
+            font-size: .9rem;
+        }
+    }
+}
+
+.prod-info-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    >div{
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+        >span{
+            &:first-child{
+                font-size: 1rem;
+                text-decoration: line-through;
+            }
+            &:last-child{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    >button{
+        background-color: v.$color-main;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 1rem;
+    }
+}
+
+.prod-user-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    >.left{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        >.user-image{
+            display: flex;
+            flex-direction: column;
+
+            >img{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            >span{
+                font-size: .8rem;
+                color: grey;
+            }
+        }
+
+        >.user-info{
+            display: flex;
+            flex-direction: column;
+            >span:first-child{
+                font-size: 1rem;
+                color: grey;
+            }
+            >span:last-child{
+                display: flex;
+                align-items: center;
+                >span{
+                    font-size: .9rem;
+                    color: grey;
+                    margin-left: .5rem;
+                }
+            }
+        }
+
+        >svg{
+            font-size: 1.3rem;
+            color: v.$color-main;
+            padding: .3rem;
+            border-radius: 5px;
+        }
+    }
+    .add-person-icon{
+        border: 1px solid v.$color-main;
+        padding: .5rem 1rem;
+        cursor: pointer;
+
+        >svg{
+            font-size: 2rem;
+            color: v.$color-main;
+        }
+    }
+   
+}
+
+.advantage{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    
+    .advantage-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .advantage-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            >div{
+                border-radius: 50%;
+                padding: 1rem;
+                svg{
+                    font-size: 3rem;
+                    color: white;
+                }
+            }
+
+            >span{
+                font-size: .9rem;
+            }
+
+            &:first-child{
+                >div{
+                    background-color: v.$color1;
+                }
+            }
+            &:nth-child(2){
+                >div{
+                    background-color: v.$color2;
+                }
+            }
+            &:last-child{
+                >div{
+                    background-color: v.$color3;
+                }
+            }
+        }
+
+
+    }
+}
+
+.cargo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    >svg{
+        font-size: 3rem;
+    }
+}
+
+.payment-options{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    >svg{
+        font-size: 3rem;
+    }
+    >div{
+        display: flex;
+        flex-direction: column;
+
+        >span{
+            font-size: 1rem;
+        }
+        >p{
+            font-size: .9rem;
+        }
+    }
+}

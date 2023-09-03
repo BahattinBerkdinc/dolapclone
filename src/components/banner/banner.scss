@@ -1,8 +1,8 @@
 .banner{
     position: relative;
     transform: translateY(150px);
-    z-index: -1;
-
+    // z-index: -1;
+    position: relative;
     @media (max-width: 992px){
         display: none;
     }
@@ -12,21 +12,30 @@
         object-fit: cover;
     }
 
-    .banner-text{
+    .link-btns{
+        position: absolute;
+        top: 15rem;
+        left: 3rem;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-        padding: 2rem 0;
-        background-color: white;
-        width: 100%;
-        box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.146);
-        img{
-            width: 250px;
+        column-gap: 1rem;
+        cursor: pointer;
+        z-index: 99999;
+
+        a{
+            cursor: pointer;
         }
-        >span{
-            font-size: 2rem;
-            font-weight: bold;
+
+        @media (max-width: 1400px){
+            top: 13rem;
+
+        }
+        @media (max-width: 1200px){
+            top: 10rem;
+
+        }
+        img{
+            width: 150px;
         }
     }
+
 }
