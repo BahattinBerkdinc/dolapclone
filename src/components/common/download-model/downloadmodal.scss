@@ -11,6 +11,10 @@
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+
+    img{
+       width: 100%;
+    }
     
     svg{
         position: absolute;
@@ -18,5 +22,13 @@
         font-size: 1.7rem;
         cursor: pointer;
         transform: translate(14rem, -10rem);
+
+         @media (max-width:992px){
+            transform: translate(13rem, -9rem);
+        }
+        @media (max-width:450px){
+            transform: translate(10rem, -7rem);
+        }
+       
     }
 }

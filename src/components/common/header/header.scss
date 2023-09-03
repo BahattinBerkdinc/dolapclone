@@ -6,6 +6,8 @@
     top: 0;
     background-color: v.$colorBg_main;
     z-index: 999;
+
+    
 }
 
 .search-input-box{
@@ -43,6 +45,11 @@
 @media (max-width:992px){
     .search-input-box.stretch{
         width: 400px;
+    }
+}
+@media (max-width:390px){
+    .search-input-box.stretch{
+        width: 300px;
     }
 }
 

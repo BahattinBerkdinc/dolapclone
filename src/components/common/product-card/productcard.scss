@@ -5,6 +5,8 @@
     flex-direction: column;
     justify-content: space-between;
     text-decoration: none;
+
+   
 }
 
 .card-top{
@@ -128,9 +130,15 @@
         justify-content: space-between;
         padding: 15px;
 
+        @media (max-width:992px){
+            flex-direction: column;
+            text-align: center;
+        }
+
         .prod-info{
             display: flex;
             flex-direction: column;
+           
 
             span{
                 color: v.$colorText;
@@ -149,6 +157,9 @@
             display: flex;
             flex-direction: column;
             text-align: end;
+            @media (max-width:992px){
+                text-align: center;
+            }
             span{
                 color: v.$colorText;
 
@@ -168,6 +179,12 @@
         align-items: center;
         justify-content: space-evenly;
         padding: 15px;
+
+        @media(max-width:450px){
+            span{
+                display: none;
+            }
+        }
 
         span{
             font-size: .7rem;
@@ -199,6 +216,10 @@
             svg{
                 font-size: 1.5rem;
                 color: v.$color1;
+
+                @media(max-width:992px){
+                    font-size: .9rem;
+                }
             }
         }
     }

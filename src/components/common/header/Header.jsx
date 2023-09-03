@@ -28,9 +28,9 @@ const Header = () => {
                 <img src={logo} alt="dolap_logo" />
             </Link>
             <Form>
-                <div className={`search-input-box ${searchClick ? "stretch" : ""}` } onClick={()=>setSearchClick(!searchClick)}>
+                <div className={`search-input-box ${searchClick ? "stretch" : ""}` }>
                 <Form.Control className={`${searchClick ? "flex" : "none"}` } type="text" placeholder="Ürün @üye, #etiket ara" />
-                <BsSearch/>
+                <BsSearch  onClick={()=>setSearchClick(!searchClick)}/>
                 </div>
             </Form>
             <div className="login">

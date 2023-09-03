@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import "./categoriebar.scss";
 import categoryData from "../../../data/categorieData.json"
 import {FiChevronsDown} from 'react-icons/fi'
-import { Container } from 'react-bootstrap';
-import Banner from '../../banner/Banner';
 
 const color1 = "#7C5CC5";
 const color2 = "#44CBA3";

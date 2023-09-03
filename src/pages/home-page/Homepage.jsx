@@ -12,7 +12,7 @@ const Homepage = () => {
   return (
     <Container>
       <Banner/>
-      <Spacer height={200}/>
+      <Spacer height={150}/>
         <Row>
         {
           popularProducts.products.map((products)=>(
